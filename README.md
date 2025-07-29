@@ -84,7 +84,7 @@ Password: admin123
 
 ## 📸 Demo
 
-> 📌 **Live Demo:** [View it on Netlify / Vercel](https://your-demo-link.netlify.app)<br><br>
+> 📌 **Live Demo:** [View it on Vercel](https://invoice-payment-tracker.vercel.app/login)<br><br>
 
 
 <img width="1905" height="856" alt="image" src="https://github.com/user-attachments/assets/3b99e55c-11ae-4938-8d75-710272f2261e" /><br><br>

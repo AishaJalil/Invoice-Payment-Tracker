@@ -1,69 +1,119 @@
-# Reactjs Invoice App
+# 💼 Invoice & Payment Tracker (React)
 
-This is the solution for [Frontend Mentor Invoice App](https://www.frontendmentor.io/challenges/invoice-app-i7KaLTQjl). You can keep track of your personal invoices with this app. You can create a new invoice, save it as a draft or as pending, mark pending invoices as paid and edit any draft or pending invoices. Also you can filter the invoices by their draft/pending/paid status.
+A simple and elegant invoice and payment tracking application built with **React**. Designed for freelancers and small businesses to streamline billing, track work done, and manage client payments with ease.
 
-I used localstorage to ensure the invoice created persists after refreshing browser.
+---
 
-### Screenshots:
+## 📋 Project Overview
 
-![Desktop Screenshot](./public/screenshots/desktop.png)
+This project simulates a real-world scenario where freelancers often struggle to manage invoices, track unpaid dues, and generate professional billing documents. This application allows users to:
 
-## This project is built with:
+* Create invoices with client details, services, and due dates
+* View and manage all invoices in one place
+* Filter invoices by payment status
+* Export invoices as PDF
+* Protect sensitive features with authentication
 
-- Frontend Framework: [ReactJs](https://reactjs.org/),
-- For state management: [Redux Toolkit](https://redux-toolkit.js.org/),
-- For routing: [React Router](https://reactrouter.com/),
-- For Storage: [localstorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage/),
+---
 
-## Table of contents
+## 🚀 Features
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
-- [Project Setup](#project-setup)
+### ✅ Authentication
 
-## Overview
+* Login system using **React Context API**
+* Protected routes via **React Router**
+* Restricts access to invoice management pages to logged-in users only
 
-### The challenge
+### 🧾 Invoice Management
 
-Users should be able to:
+* Create a new invoice:
+  * Client name & email
+  * List of services (item name, quantity, rate)
+  * Auto-calculated subtotal and total
+  * Due date
+  * Status toggle: Paid / Unpaid
+    
+* View all invoices:
+  * Filter by Paid / Unpaid / All
+  * Edit invoice status directly
+    
+* Detailed view:
+  * Full invoice breakdown
+  * Export invoice to **PDF** using `jspdf` 
+---
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Create, read, update, and delete invoices
-- Receive form validations when trying to create/edit an invoice
-- Save draft invoices, and mark pending invoices as paid
-- Filter invoices by status (draft/pending/paid)
-- Bonus: Used Localstorage to make invoice persist after refresh or when browser is closed.
+## 🛠️ Tech Stack
 
-### Links
+* Frontend Framework: ReactJs**
+* For state management: Redux Toolkit**
+* For routing: React Router**
+* For Storage: localstorage**
+---
 
-- Solution URL: [Github Link](https://github.com/Kingsleyaham/react-invoice-app)
-- Live Site URL: [React Invoice App](https://react-invoice-app-proj.netlify.app/)
+## 📦 Installation & Setup
 
-## Author
+1. Clone the repo:
 
-- Portfolio - [Kingsleyaham](https://github.com/Kingsleyaham/)
-- Linkedin - [Kingsley Aham](https://www.linkedin.com/in/kingsley-aham-282a51225/)
-- Twitter - [Aham Kingsley](https://twitter.com/aham_kingsley8/)
+   ```bash
+   git clone https://github.com/your-username/invoice-tracker.git
+   cd invoice-tracker
+   ```
 
-## Project setup
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+---
+
+## 🔐 Demo Credentials (for testing)
 
 ```
-npm install
+Username: admin
+Password: admin123
 ```
 
-### Compiles and hot-reloads for development
+---
 
-```
-npm run start
-```
+## 📸 Demo
 
-### Compiles and minifies for production
+> 📌 **Live Demo:** [View it on Vercel](https://invoice-payment-tracker.vercel.app/login)<br><br>
 
-```
-npm run build
-```
+
+<img width="1905" height="856" alt="image" src="https://github.com/user-attachments/assets/3b99e55c-11ae-4938-8d75-710272f2261e" /><br><br>
+
+
+
+<img width="1897" height="887" alt="image" src="https://github.com/user-attachments/assets/e49508b6-3215-4a2f-89c2-ba538df8a1e9" /><br><br>
+
+
+
+<img width="1837" height="858" alt="image" src="https://github.com/user-attachments/assets/9b23fa90-eb9f-4167-adf4-fea328f9bee8" /><br><br>
+
+
+---
+
+## 👤 Author
+
+**Aisha Jalil**<br>
+📧 [Email me](mailto:aishajalil387@gmail.com)<br>
+🔗 [GitHub](https://github.com/AishaJalil)<br>
+🎨 [Portfolio](https://my-portfolio-tawny-seven-90.vercel.app/)  <br>
+💼 Final year CS student | Passionate about full-stack development & UI/UX<br>
+
+
+---
+
+## 📄 License
+
+This project is open-sourced for learning purposes and personal use. You may modify it for your own freelance or client projects.
+
+
+
